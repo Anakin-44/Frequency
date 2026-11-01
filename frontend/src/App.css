@@ -484,3 +484,79 @@ audio {
     opacity: 1;
   }
 }
+.nav-item {
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.nav-item:hover {
+  color: #c4b5fd;
+  background: #1d1929;
+}
+
+.favorite-toggle {
+  background: transparent;
+  color: #a78bfa;
+  cursor: pointer;
+  float: right;
+  margin-top: 12px;
+}
+
+.favorite-toggle:hover,
+.heart:hover {
+  color: #ec4899;
+}
+
+.heart {
+  background: transparent;
+  color: #a78bfa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.nav-item:hover {
+  color: #c4b5fd;
+  background: #1d1929;
+}
+
+.favorite-toggle,
+.heart {
+  background: transparent;
+  color: #a78bfa;
+  cursor: pointer;
+  border: none;
+}
+
+.favorite-toggle {
+  float: right;
+  margin-top: 12px;
+}
+
+.favorite-toggle:hover,
+.heart:hover {
+  color: #ec4899;
+}
+
+.heart {
+  display: flex;
+  align-items: center;
+}
+
+.preview-label {
+  color: #a78bfa;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
